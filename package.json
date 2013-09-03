@@ -1,0 +1,10 @@
+{
+  "name": "csci430",
+  "description": "the best damn project ever made for this class",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "socket.io": ">= 0.9"
+  }
+}
