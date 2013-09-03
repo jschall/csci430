@@ -53,6 +53,6 @@
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.rotate(2*Math.PI * dt);
-        ctx.fillText('CSCI 530',0,0);
+        ctx.fillText('CSCI 430',0,0);
     }
 }());
