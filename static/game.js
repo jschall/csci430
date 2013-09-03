@@ -26,7 +26,7 @@
 (function(){
     var ctx = document.getElementsByTagName('canvas')[0].getContext('2d');
     
-    ctx.translate(500,300);
+    ctx.translate(ctx.canvas.width/2,ctx.canvas.height/2);
     
     (function loop(time) {
         var dt = (time - loop.last_time)*.001;
